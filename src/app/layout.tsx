@@ -19,7 +19,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`bg-cover bg-center bg-background-card overflow-y-auto min-h-screen ${inter.className}`}
+        style={{ backgroundImage: "url('/background.png')" }}
+      >
+        {children}
+      </body>
     </html>
   );
 }

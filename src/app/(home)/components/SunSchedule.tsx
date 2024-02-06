@@ -1,6 +1,6 @@
 import React from "react";
 
-import { SunIcon } from "lucide-react";
+import { RefreshCwOff, SunIcon } from "lucide-react";
 
 import { getCircleCoordinates } from "@/utils/getCircleCoordinates";
 
@@ -33,6 +33,7 @@ export default function SunSchedule({
       <div className="flex gap-1 text-purple-subtitle items-center pt-4 font-bold text-base">
         <SunIcon size={20} />
         <span className="text-sm ">Sun Schedule</span>
+        <RefreshCwOff className="ml-1 h-4 w-4 text-rose-400" />
       </div>
       <div className="flex-grow flex items-center justify-center">
         <svg viewBox="0 0 100 50" className="w-full h-auto">

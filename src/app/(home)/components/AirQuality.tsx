@@ -1,4 +1,4 @@
-import { LeafIcon } from "lucide-react";
+import { LeafIcon, RefreshCwOff } from "lucide-react";
 
 export default function AirQuality() {
   return (
@@ -8,6 +8,7 @@ export default function AirQuality() {
           <div className="flex gap-1 text-purple-subtitle items-center pt-4 font-bold text-base">
             <LeafIcon size={20} />
             <span className="text-sm ">Air Quality</span>
+            <RefreshCwOff className="ml-1 h-4 w-4 text-rose-400" />
           </div>
 
           <div className="flex flex-col items-center gap-2 mt-8">
@@ -16,7 +17,7 @@ export default function AirQuality() {
           </div>
         </div>
 
-        <div className="flex items-center justify-center gap-2">
+        <div className="flex items-center w-full justify-evenly">
           <div className="flex flex-col items-center justify-center">
             <span className="text-[#87EBCD] text-sm font-bold">12.9</span>
             <span className="text-label text-xs">PM2.5</span>
