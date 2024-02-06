@@ -1,4 +1,4 @@
-# Weather Forecast
+# Climate Forecast
 
 A Weather forecast app built using React + Nextjs + Tailwind
 
@@ -7,7 +7,7 @@ The application obtains latitude and longitude via the browser and makes request
 For cost reasons, only the current temperature functionality is being obtained via api, since the other functionalities require a payment plan.
 
 ## Demo
-![demo-weather-forecast](https://github.com/samirelhassann/weather-forecast/assets/91634008/ef5fca03-8735-4c95-9fd9-f1af3c1f585f)
+![demo-climate-forecast](https://github.com/samirelhassann/climate-forecast/assets/91634008/ef5fca03-8735-4c95-9fd9-f1af3c1f585f)
 
 
 ## Language and Tools
@@ -34,12 +34,12 @@ Follow these steps to install the project:
 
 1. Clone the project
 ```bash
-git clone https://github.com/samirelhassann/weather-forecast.git
+git clone https://github.com/samirelhassann/climate-forecast.git
 ```
 
 2. Navigate into the project directory:
 ```bash
-cd weather-forecast
+cd climate-forecast
 ```
 
 3. Install the project dependencies:
