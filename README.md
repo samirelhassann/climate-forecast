@@ -7,6 +7,7 @@ The application obtains latitude and longitude via the browser and makes request
 For cost reasons, only the current temperature functionality is being obtained via api, since the other functionalities require a payment plan.
 
 ## Demo
+![demo-weather-forecast](https://github.com/samirelhassann/weather-forecast/assets/91634008/ef5fca03-8735-4c95-9fd9-f1af3c1f585f)
 
 
 ## Language and Tools
